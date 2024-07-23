@@ -33,6 +33,13 @@
 .bread {
   color: white;
 }
+.cheese {
+  color: mediumaquamarine;
+}
 .meat {
   color: orange;
+}
+#mayo {
+  color: pink;
+  text-align: center;
 }
