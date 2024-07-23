@@ -32,13 +32,14 @@ Technologies Used: HTML, CSS, JavaScript
 
 ⠈⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄
 
-Contact Me
-I'm always open to new projects and collaborations. Feel free to reach out:
+Contact Me:
+
+I'm always open to new projects and collaborations.
 
 Email: madibromfield215@gmail.com
-LinkedIn: [Your LinkedIn Profile URL]
+
 All Socials: FragileBluberri
+
 Let's build something amazing together!
 
 ⠈⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄
-Test commit
