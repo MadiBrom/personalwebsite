@@ -5,34 +5,86 @@
   font-size: 25px;
   text-align: center;
   cursor: pointer;
-  outline: double rgb(247, 3, 3);
-  color: #ff9d00bc;
-  background-color: #000000d9;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 0 9px #452c0e7c;
+  outline: double rgba(0, 0, 255, 0.704);
+  padding-right: 10px;
+  padding-left: 15px;
+  color: hsla(57, 100%, 75%, 0.816);
+  text-shadow: 0 2px 10px rgb(64, 255, 0);
+  background-color: #000000a4;
+  box-shadow: 0 9px 3px #8000ff3a;
   margin-left: 15px;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: auto;
   display: inline-block;
 }
 .nav:hover {
-  background-color: #3c2603d9;
+  color: hsla(57, 100%, 75%, 0.948);
+  text-shadow: 1px 2px 5px rgb(21, 255, 0);
+  background-color: #090034b3;
 }
 .nav:active {
-  background-color: #3c2603d9;
-  box-shadow: 0 5px #666;
+  background-color: #090034db;
+  box-shadow: 0 9px 3px #8000ff67;
+  border-radius: 1px;
   transform: translateY(4px);
 }
 #navbar {
-  background-color: blue;
-  height: 45px;
+  background-image: url(https://yesofcorsa.com/wp-content/uploads/2020/02/Neon-Lights-Desktop-Wallpaper.jpg);
+  height: 60px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #ff000074;
+  box-shadow: 0 4px 40px rgba(255, 0, 0, 0.728);
 }
 .body {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.987);
 }
+.lines {
+  text-align: center;
+  font-size: 80px;
+  color: hotpink;
+  text-shadow: 1px 1px 20px rgb(255, 0, 238);
+  background-color: rgba(17, 0, 255, 0.035);
+  margin: 10px;
+}
+#avatar {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: black;
+  border-radius: 100px;
+  box-shadow: 1px 1px 80px rgb(234, 0, 255);
+}
+
+/* PAGE BODIES */
 .bread {
-  color: white;
+  color: rgb(0, 242, 255);
+  text-shadow: 1px 1px 20px rgb(0, 255, 255);
+  background-color: rgba(17, 0, 255, 0.035);
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.cheese {
+  color: rgb(135, 84, 255);
+  text-shadow: 1px 1px 10px rgb(106, 0, 255);
+  background-color: rgba(17, 0, 255, 0.035);
+  font-size: 25px;
+  margin-top: 2px;
+  margin-bottom: 3px;
 }
 .meat {
-  color: orange;
+  font-size: 25px;
+  color: rgb(0, 252, 17);
+  text-shadow: 1px 1px 30px rgb(0, 255, 8);
+  background-color: rgba(17, 0, 255, 0.035);
+}
+#mayo {
+  color: rgb(69, 134, 255);
+  text-shadow: 1px 1px 20px rgb(255, 0, 0);
+  text-align: center;
+  margin-top: 100px;
 }
