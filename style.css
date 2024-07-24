@@ -48,6 +48,8 @@
   background-color: rgba(17, 0, 255, 0.035);
   margin: 10px;
 }
+/* PICS */
+/* home */
 #avatar {
   display: block;
   margin-top: 100px;
@@ -58,8 +60,14 @@
   border-radius: 100px;
   box-shadow: 1px 1px 80px rgb(234, 0, 255);
 }
+/* portfolio */
+.vpic {
+  width: 580px;
+  padding: 10px;
+}
 
 /* PAGE BODIES */
+/* bread titles */
 .bread {
   color: rgb(0, 242, 255);
   text-shadow: 1px 1px 20px rgb(0, 255, 255);
@@ -68,6 +76,21 @@
   text-align: center;
   margin-bottom: 2px;
 }
+.wheat {
+  font-size: 35px;
+  color: rgb(0, 242, 255);
+  text-shadow: 1px 1px 20px rgb(0, 255, 255);
+  background-color: rgba(17, 0, 255, 0.035);
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid rgb(255, 0, 0);
+  width: 600px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* cheese subtitles */
 .cheese {
   color: rgb(135, 84, 255);
   text-shadow: 1px 1px 10px rgb(106, 0, 255);
@@ -76,12 +99,39 @@
   margin-top: 2px;
   margin-bottom: 3px;
 }
+.cheddar {
+  font-size: 35px;
+  color: rgb(135, 84, 255);
+  text-align: center;
+  text-shadow: 1px 1px 10px rgb(106, 0, 255);
+  background-color: rgba(17, 0, 255, 0.035);
+  margin-top: 2px;
+  margin-bottom: 3px;
+  border: 2px solid rgb(255, 0, 0);
+  width: 600px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* meat text */
 .meat {
   font-size: 25px;
   color: rgb(0, 252, 17);
   text-shadow: 1px 1px 30px rgb(0, 255, 8);
   background-color: rgba(17, 0, 255, 0.035);
 }
+.salami {
+  font-size: 30px;
+  color: rgb(0, 252, 17);
+  text-align: justify;
+  text-shadow: 1px 1px 30px rgb(0, 255, 8);
+  background-color: rgba(17, 0, 255, 0.035);
+  width: 600px;
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px;
+}
+/* secrets */
 #mayo {
   color: rgb(69, 134, 255);
   text-shadow: 1px 1px 20px rgb(255, 0, 0);
