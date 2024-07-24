@@ -1,3 +1,11 @@
+/* BTS */
+.body {
+  background-color: rgba(0, 0, 0, 0.987);
+}
+.projects {
+  display: inline-flex;
+  flex-direction: column;
+}
 /* NAV */
 .nav {
   text-decoration: none;
@@ -37,9 +45,6 @@
   object-position: center;
   border: 1px solid #ff000074;
   box-shadow: 0 4px 40px rgba(255, 0, 0, 0.728);
-}
-.body {
-  background-color: rgba(0, 0, 0, 0.987);
 }
 
 /* PICS */
