@@ -1,8 +1,21 @@
+/* BTS */
+/* background */
+.body {
+  background-color: rgba(0, 0, 0, 0.987);
+}
+/* portfolio formatting */
+.projects {
+  display: inline-block;
+  align-items: center;
+  padding: auto;
+  margin: auto;
+}
+
 /* NAV */
 .nav {
   text-decoration: none;
   padding: 5px 5px;
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
   cursor: pointer;
   outline: 4px double rgba(0, 0, 255, 0.704);
@@ -38,9 +51,6 @@
   border: 1px solid #ff000074;
   box-shadow: 0 4px 40px rgba(255, 0, 0, 0.728);
 }
-.body {
-  background-color: rgba(0, 0, 0, 0.987);
-}
 
 /* PICS */
 /* home */
@@ -54,9 +64,9 @@
   border-radius: 100px;
   box-shadow: 1px 1px 80px rgb(234, 0, 255);
 }
-/* portfolio */
+/* portfolio preview pic*/
 .vpic {
-  width: 580px;
+  width: 500px;
   padding: 10px;
 }
 
@@ -80,21 +90,23 @@
   text-align: center;
   margin-bottom: 2px;
 }
-/* preview */
+/* portfolio header */
 .wheat {
   font-size: 45px;
-  color: rgb(0, 242, 255);
-  text-shadow: 1px 1px 20px rgb(0, 255, 255);
-  background-color: rgba(17, 0, 255, 0.035);
+  font-weight: 100;
+  color: rgb(255, 0, 0);
+  text-shadow: 1px 1px 20px rgb(255, 191, 0);
   text-align: center;
-  margin-bottom: 20px;
+  background-color: rgba(255, 0, 0, 0.246);
   border: 2px solid rgb(255, 0, 0);
-  width: 600px;
+  width: 559px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-bottom: 20px;
 }
+
 /* cheese subtitles */
 /* description */
 .cheese {
@@ -102,10 +114,8 @@
   text-shadow: 1px 1px 10px rgb(106, 0, 255);
   background-color: rgba(17, 0, 255, 0.035);
   font-size: 25px;
-  margin-top: 2px;
-  margin-bottom: 13px;
 }
-/* preview */
+/* portfolio preview subtit*/
 .cheddar {
   font-size: 35px;
   color: rgb(135, 84, 255);
@@ -114,8 +124,8 @@
   background-color: rgba(17, 0, 255, 0.035);
   margin-top: 30px;
   margin-bottom: 13px;
-  border: 2px solid rgba(255, 0, 0, 0.975);
-  width: 600px;
+  border: 2px solid rgba(255, 77, 0, 0.975);
+  width: 550px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
@@ -130,19 +140,19 @@
   text-shadow: 1px 1px 30px rgb(0, 255, 8);
   background-color: rgba(17, 0, 255, 0.035);
 }
-/* preview */
+/* portfolio description */
 .salami {
   font-size: 30px;
   color: rgb(0, 252, 17);
   text-align: justify;
   text-shadow: 1px 1px 30px rgb(0, 255, 8);
   background-color: rgba(17, 0, 255, 0.035);
-  width: 600px;
+  width: 550px;
   border: 2px solid rgb(255, 0, 0);
   padding: 10px;
   margin-top: 30px;
 }
-/* link */
+/* portfolio link */
 .ham {
   font-size: 30px;
   color: rgb(206, 0, 252);
@@ -157,4 +167,14 @@
   text-shadow: 1px 1px 20px rgb(255, 0, 0);
   text-align: center;
   margin-top: 100px;
+}
+#mustard {
+  color: rgb(238, 255, 0);
+  text-shadow: 1px 1px 80px rgb(255, 255, 166);
+  font-size: 100px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  text-align: left;
+  display: inline-block;
+  margin-left: 55px;
 }
