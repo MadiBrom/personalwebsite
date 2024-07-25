@@ -43,9 +43,10 @@
   transform: translateY(4px);
 }
 #navbar {
-  background-image: url(https://yesofcorsa.com/wp-content/uploads/2020/02/Neon-Lights-Desktop-Wallpaper.jpg);
   height: 60px;
+  background-image: url(https://yesofcorsa.com/wp-content/uploads/2020/02/Neon-Lights-Desktop-Wallpaper.jpg);
   background-repeat: no-repeat;
+  background-size: 2800px;
   object-fit: cover;
   object-position: center;
   border: 1px solid #ff000074;
@@ -71,6 +72,7 @@
 }
 
 /* PAGE BODIES */
+/* portfolio styling */
 /* about page style */
 .lines {
   text-align: center;
@@ -107,7 +109,7 @@
   margin-bottom: 20px;
 }
 
-/* cheese subtitles */
+/* subtitles */
 /* description */
 .cheese {
   color: rgb(135, 84, 255);
@@ -142,7 +144,7 @@
 /* portfolio description */
 .salami {
   font-size: 30px;
-  color: rgb(0, 252, 17);
+  color: rgb(252, 244, 98);
   text-align: justify;
   text-shadow: 1px 1px 30px rgb(0, 255, 8);
   background-color: rgba(17, 0, 255, 0.035);
