@@ -9,6 +9,7 @@
   align-items: center;
   padding: auto;
   margin-left: 20px;
+  margin-top: 100px;
 }
 
 /* NAV */
@@ -52,7 +53,6 @@
   border: 1px solid #ff000074;
   box-shadow: 0 4px 40px rgba(255, 0, 0, 0.728);
 }
-
 /* PICS */
 /* home */
 #avatar {
@@ -65,14 +65,7 @@
   border-radius: 100px;
   box-shadow: 1px 1px 80px rgb(234, 0, 255);
 }
-/* portfolio preview pic*/
-.vpic {
-  width: 500px;
-  padding: 10px;
-}
-
 /* PAGE BODIES */
-/* portfolio styling */
 /* about page style */
 .lines {
   text-align: center;
@@ -108,7 +101,6 @@
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
-
 /* subtitles */
 /* description */
 .cheese {
@@ -119,6 +111,7 @@
 }
 /* portfolio preview subtit*/
 .cheddar {
+  font-weight: 100;
   font-size: 35px;
   color: rgb(255, 198, 84);
   text-align: center;
@@ -127,6 +120,24 @@
   margin-top: 30px;
   margin-bottom: 13px;
   border: 2px solid rgba(255, 199, 102, 0.975);
+  width: 550px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* preview bar */
+.bar {
+  font-weight: 100;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 1px 1px 8px rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.297);
+  margin-top: 30px;
+  margin-bottom: 13px;
+  border: 2px solid rgba(201, 201, 201, 0.975);
+  box-shadow: 1px 1px 10px whitesmoke;
   width: 550px;
   padding-left: 10px;
   padding-right: 10px;
@@ -144,12 +155,27 @@
 /* portfolio description */
 .salami {
   font-size: 30px;
-  color: rgb(252, 244, 98);
+  font-weight: 100;
+  color: rgb(243, 255, 155);
   text-align: justify;
-  text-shadow: 1px 1px 30px rgb(0, 255, 8);
-  background-color: rgba(17, 0, 255, 0.035);
+  text-shadow: 1px 1px 10px rgb(225, 255, 0);
+  background-color: rgba(255, 183, 0, 0.262);
   width: 550px;
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid rgb(246, 255, 0);
+  box-shadow: 1px 1px 70px rgba(255, 242, 0, 0.87);
+  padding: 10px;
+  margin-top: 30px;
+}
+.turkey {
+  font-size: 30px;
+  font-weight: 100;
+  color: rgb(243, 255, 155);
+  text-align: justify;
+  text-shadow: 1px 1px 10px rgb(225, 255, 0);
+  background-color: rgba(165, 255, 161, 0.345);
+  width: 550px;
+  border: 2px solid rgb(47, 255, 0);
+  box-shadow: 1px 1px 70px rgba(38, 255, 0, 0.87);
   padding: 10px;
   margin-top: 30px;
 }
@@ -161,6 +187,17 @@
   text-shadow: 1px 1px 30px rgb(255, 0, 238);
   text-decoration: none;
   background-color: rgba(17, 0, 255, 0.035);
+}
+/* preview pics */
+#bologna {
+  border-color: 1px solid red;
+}
+.vpic {
+  width: 500px;
+  border-color: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 }
 /* secrets */
 #mayo {
@@ -175,7 +212,6 @@
   font-size: 100px;
   font-family: "Courier New", Courier, monospace;
   font-weight: 100;
-  text-align: left;
-  display: inline-block;
+  text-align: right;
   margin-left: 55px;
 }
