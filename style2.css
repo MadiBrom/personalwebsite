@@ -1,0 +1,61 @@
+/* WEB BACKGROUND */
+.body {
+  background-color: rgba(0, 0, 0, 0.987);
+}
+/* NAV BAR*/
+.nav {
+  text-decoration: none;
+  padding: 5px 5px;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+  outline: 4px double rgba(0, 0, 255, 0.704);
+  padding-right: 20px;
+  padding-left: 15px;
+  color: hsla(57, 100%, 75%, 0.816);
+  text-shadow: 0 2px 10px rgb(64, 255, 0);
+  background-color: #000000a4;
+  box-shadow: 0 9px 3px #8000ff3a;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: auto;
+  display: inline-block;
+}
+.nav:hover {
+  color: hsla(57, 100%, 75%, 0.948);
+  text-shadow: 1px 2px 5px rgb(21, 255, 0);
+  background-color: #090034b3;
+}
+.nav:active {
+  background-color: #090034db;
+  box-shadow: 0 9px 3px #8000ff67;
+  border-radius: 5px;
+  outline: 4px double rgb(0, 47, 255);
+  transform: translateY(4px);
+}
+#navbar {
+  height: 60px;
+  background-image: url(https://yesofcorsa.com/wp-content/uploads/2020/02/Neon-Lights-Desktop-Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: 2800px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #ff000074;
+  box-shadow: 0 4px 40px rgba(255, 0, 0, 0.728);
+  position: sticky;
+  top: 0px;
+}
+
+/* HOME PAGE */
+/* pic */
+
+#avatar {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: black;
+  border-radius: 100px;
+  box-shadow: 1px 1px 80px rgb(234, 0, 255);
+}
