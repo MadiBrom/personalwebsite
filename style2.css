@@ -45,6 +45,41 @@
   position: sticky;
   top: 0px;
 }
+/* FOOTER */
+.foot {
+  padding: 5px 5px;
+  cursor: pointer;
+  margin-left: 15px;
+  display: inline-block;
+}
+.foot:hover {
+  border-radius: 50%;
+  background-color: rgba(237, 191, 191, 0.326);
+}
+.foot:active {
+  transform: translateY(4px);
+}
+#footer {
+  height: 60px;
+  background-color: rgba(25, 0, 33, 0.664);
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 70px rgba(128, 0, 255, 0.728);
+  position: sticky;
+  bottom: 0px;
+}
+#reddit {
+  height: 130px;
+  width: 130px;
+}
+#youtube {
+  height: 130px;
+  width: 130px;
+}
+#tiktok {
+  height: 130px;
+  width: 130px;
+}
 
 /* HOME PAGE */
 /* text boxes */
@@ -125,15 +160,51 @@
   background-color: rgba(17, 0, 255, 0.035);
   margin: 10px;
 }
-/* description */
+/* background */
 .facts {
   width: 1700px;
+  border: 2px solid rgb(152, 152, 152);
   background-color: rgb(0, 0, 0);
-  box-shadow: 1px 1px 30px rgb(255, 255, 255);
-  padding: 30px;
+  box-shadow: 1px 1px 70px rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
 }
+.outdoors {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+}
+.gaming {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+}
+.home {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+}
+.interests {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+}
+.strong {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+}
+/* titles */
 .tit2 {
   color: rgb(0, 242, 255);
   text-shadow: 1px 1px 20px rgb(0, 255, 255);
@@ -142,12 +213,16 @@
   text-align: center;
   margin-bottom: 2px;
 }
+/* section 1 subtitles */
 .subtit2 {
   color: rgb(118, 255, 84);
   text-shadow: 1px 1px 30px rgb(0, 255, 55);
   background-color: rgba(17, 0, 255, 0.035);
   font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+/* descriptions */
 .description2 {
   color: rgb(255, 209, 141);
   text-shadow: 1px 1px 20px rgb(255, 145, 0);
