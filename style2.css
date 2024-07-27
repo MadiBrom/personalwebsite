@@ -1,6 +1,6 @@
 /* WEB BACKGROUND */
 .body {
-  background-color: rgba(0, 0, 0, 0.987);
+  background-color: rgb(0, 0, 0);
 }
 /* NAV BAR*/
 .nav {
@@ -47,8 +47,62 @@
 }
 
 /* HOME PAGE */
+/* text boxes */
+.subbody {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.page {
+  background-color: rgb(72, 21, 21);
+  border: 8px dotted rgb(255, 0, 0);
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#part1 {
+  width: 3000px;
+  height: fit-content;
+  margin-top: -600px;
+  margin-left: 150px;
+  margin-right: 400px;
+  position: static;
+}
+#part2 {
+  width: 4000px;
+  height: fit-content;
+  margin-top: -400px;
+  margin-left: 700px;
+  margin-right: 100px;
+  position: static;
+}
+/* description */
+.tit {
+  background-color: blue;
+  border: 8px dotted cyan;
+  border-radius: 50%;
+  box-shadow: 1px 1px 30px purple;
+  color: rgb(0, 242, 255);
+  text-shadow: 1px 1px 20px rgb(0, 255, 255);
+  font-size: 55px;
+  text-align: center;
+  flex: 100px;
+  margin-top: -50px;
+  margin-bottom: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.description {
+  /* border: 8px dotted rgb(246, 255, 0); */
+  color: rgb(135, 84, 255);
+  text-shadow: 1px 1px 10px rgb(106, 0, 255);
+  font-size: 45px;
+  text-align: center;
+  padding: 30px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
 /* pic */
-
 #avatar {
   display: block;
   margin-top: 100px;
@@ -58,4 +112,45 @@
   border: black;
   border-radius: 100px;
   box-shadow: 1px 1px 80px rgb(234, 0, 255);
+  position: static;
+}
+
+/* ABOUT PAGE */
+/* lines */
+.lines2 {
+  text-align: center;
+  font-size: 80px;
+  color: hotpink;
+  text-shadow: 1px 1px 20px rgb(255, 0, 238);
+  background-color: rgba(17, 0, 255, 0.035);
+  margin: 10px;
+}
+/* description */
+.facts {
+  width: 1700px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 30px rgb(255, 255, 255);
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tit2 {
+  color: rgb(0, 242, 255);
+  text-shadow: 1px 1px 20px rgb(0, 255, 255);
+  background-color: rgba(17, 0, 255, 0.035);
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.subtit2 {
+  color: rgb(118, 255, 84);
+  text-shadow: 1px 1px 30px rgb(0, 255, 55);
+  background-color: rgba(17, 0, 255, 0.035);
+  font-size: 45px;
+}
+.description2 {
+  color: rgb(255, 209, 141);
+  text-shadow: 1px 1px 20px rgb(255, 145, 0);
+  background-color: rgba(17, 0, 255, 0.035);
+  font-size: 45px;
 }
