@@ -53,32 +53,44 @@
   display: inline-block;
 }
 .foot:hover {
+  border: 1px solid white;
   border-radius: 50%;
-  background-color: rgba(237, 191, 191, 0.326);
+  background-color: rgba(191, 230, 237, 0.326);
+  padding: 1px;
 }
 .foot:active {
+  border: 1px solid rgba(205, 151, 151, 0.184);
+  border-radius: 50%;
+  background-color: rgba(191, 230, 237, 0.199);
   transform: translateY(4px);
 }
 #footer {
-  height: 60px;
+  height: fit-content;
   background-color: rgba(25, 0, 33, 0.664);
   object-fit: cover;
   object-position: center;
   box-shadow: 0 4px 70px rgba(128, 0, 255, 0.728);
   position: sticky;
   bottom: 0px;
+  display: flex;
+}
+.social1 {
+  border: 2px dotted white;
+}
+.social2 {
+  border: 2px dotted brown;
 }
 #reddit {
-  height: 130px;
-  width: 130px;
+  height: 100px;
+  width: 100px;
 }
 #youtube {
-  height: 130px;
-  width: 130px;
+  height: 100px;
+  width: 100px;
 }
 #tiktok {
-  height: 130px;
-  width: 130px;
+  height: 100px;
+  width: 100px;
 }
 
 /* HOME PAGE */
@@ -140,7 +152,7 @@
 /* pic */
 #avatar {
   display: block;
-  margin-top: 100px;
+  margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -228,4 +240,17 @@
   text-shadow: 1px 1px 20px rgb(255, 145, 0);
   background-color: rgba(17, 0, 255, 0.035);
   font-size: 45px;
+}
+
+/* PORTFOLIO PAGE */
+
+/* CONTACT PAGE */
+.contact-me {
+  width: 1700px;
+  border: 2px solid rgb(152, 152, 152);
+  background-color: rgb(123, 7, 7);
+  box-shadow: 1px 1px 70px rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
