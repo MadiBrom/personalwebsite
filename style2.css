@@ -61,7 +61,6 @@
 }
 /* FOOTER */
 .foot {
-  padding: 5px 5px;
   cursor: pointer;
   display: inline-block;
 }
@@ -96,24 +95,29 @@
   width: 525px;
   display: flex;
   justify-content: center;
+  margin-right: -150px;
 }
 #reddit {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
+  padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 #youtube {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
+  padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 #tiktok {
-  height: 100px;
-  width: 100px;
-  margin-top: 10px;
+  height: 75px;
+  width: 75px;
+  padding: 5px;
+  margin-top: 2px;
   margin-bottom: 10px;
+  margin-left: -10px;
 }
 
 /* HOME PAGE */
@@ -298,6 +302,10 @@
   color: white;
   font-size: 80px;
 }
+#vault {
+  width: 1000px;
+}
+
 /* CONTACT PAGE */
 .contact-me {
   width: 1810px;
